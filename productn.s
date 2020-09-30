@@ -19,7 +19,7 @@ loop:   addi $t1,1
         j loop
         
 exit:  li $v0,4
-       la $a0,msg2
+        syscall
        syscall
        li $v0,1
        move $a0,$t2
