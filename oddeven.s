@@ -12,6 +12,7 @@ main:
    syscall
    move $t0,$v0
    andi $t0,$t0,1
+   la $v0,4
    li $t1,1
    beq $t0,$t1,odd
    j even
