@@ -1,5 +1,5 @@
 	.data
-MSG1:	.asciiz " The numbers 5 and 6 are added together : "
+MSG1:	.asciiz ": "
 	.text
 main:
 	li $t1,5
